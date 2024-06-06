@@ -25,7 +25,7 @@
 var Message = function(id, flags, data) {
     this.id = id & 0x3fffffff;
     this.flags = flags & 0x3;
-    this.data = typeof data === 'string' ? data.split(' ') : data;
+    this.data = typeof data === 'string' ? data.split('-') : data;
 };
 
 /**
@@ -108,7 +108,7 @@ Message.decode = function(buf) {
         offset += 4;
         data.push(buf.slice(offset, offset+len).toString("utf8"));
         offset += len+1;
-    }    
+    }
     return new Message(id, flags, data);
 };
 
