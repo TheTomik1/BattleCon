@@ -6,10 +6,10 @@
     "main": "src/BattleCon.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dcodeIO/BattleCon.git"
+        "url": "https://github.com/TheTomik1/BattleCon.git"
     },
     "bugs": {
-        "url": "https://github.com/dcodeIO/BattleCon/issues"
+        "url": "https://github.com/TheTomik1/BattleCon/issues"
     },
     "keywords": ["rcon", "utility", "frostbite", "battlefield"],
     "license": "Apache-2.0",
