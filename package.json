@@ -1,5 +1,5 @@
 {
-    "name": "battlecon",
+    "name": "TheTomik/battlecon",
     "description": "A Battlefield / Frostbite engine RCON layer on node.js",
     "author": "Daniel Wirtz <dcode@dcode.io>",
     "version": "0.3.0",
