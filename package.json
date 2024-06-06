@@ -1,8 +1,8 @@
 {
-    "name": "TheTomik/battlecon",
+    "name": "@thetomik/battlecon",
     "description": "A Battlefield / Frostbite engine RCON layer on node.js",
     "author": "Daniel Wirtz <dcode@dcode.io>",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "main": "src/BattleCon.js",
     "repository": {
         "type": "git",
