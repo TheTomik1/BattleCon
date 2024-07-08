@@ -25,7 +25,7 @@
 var Message = function(id, flags, data) {
     this.id = id & 0x3fffffff;
     this.flags = flags & 0x3;
-    this.data = typeof data === 'string' ? data.split('-') : data;
+    this.data = typeof data === 'string' ? data.split('&') : data;
 };
 
 /**
